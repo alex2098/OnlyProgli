@@ -1,0 +1,125 @@
+.background_app {
+    background-color: rgb(194, 228, 230);
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    overflow-y: auto;
+}
+
+input {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-family: "Times New Roman";
+    background-color: white;
+}
+
+input[ type="datetime-local"] {
+    width: 150px;
+}
+
+select {
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    font-family: "Times New Roman";
+    border-radius: 7px;
+}
+
+button {
+    width: 135px;
+    background: rgb(218, 228, 255);
+    border: 1px solid rgb(104, 83, 83);
+    border-radius: 12px;
+    margin: 5px;
+}
+
+.div_page_error {
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 50px;
+    margin: -25px -300px;
+    position: absolute;
+}
+
+.main, .main_full {
+    top: 50px;
+    left: 230px;
+    right: 0;
+    position: absolute;
+}
+
+.main_full {
+    bottom: 0;
+}
+
+.main_elements {
+    position: absolute;
+    top: 50px;
+    left: 7px;
+    right: 7px;
+    bottom: 75px;
+}
+
+.main_full_elements {
+    position: absolute;
+    top: 50px;
+    left: 7px;
+    right: 7px;
+    bottom: 0;
+}
+
+.main_button {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 58px;
+    text-align: center;
+}
+
+.Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    margin: -50px -125px;
+    background-color: rgb(170, 200, 255);
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(240, 240, 240, 0.5);
+    text-align: center;
+}
+
+table {
+    background-color: white;
+}
+
+thead {
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 7px;
+    resize: none;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+

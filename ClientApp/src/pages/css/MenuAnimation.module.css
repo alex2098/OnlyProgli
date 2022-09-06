@@ -1,0 +1,27 @@
+﻿.div_input {
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.text {
+    margin-left: 7px;
+}
+
+.div {
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 230px;
+    position: absolute;
+    background-color: white;
+}
+
+.input {
+    width: 200px;
+}
+
+.div_button {
+    bottom: 7px;
+    position: absolute;
+    text-align: center;
+}

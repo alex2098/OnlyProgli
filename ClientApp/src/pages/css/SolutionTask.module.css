@@ -1,0 +1,27 @@
+﻿.div {
+    left: 7px;
+    top: 50px;
+    bottom: 7px;
+    right: 325px;
+    position: absolute;
+}
+
+.div_animation {
+    left: 7px;
+    top: 50px;
+    bottom: 7px;
+    right: 7px;
+    position: absolute;
+}
+
+.program {
+    right: 234px;
+    top: 50px;
+    bottom: 7px;
+    position: absolute;
+    width: 84px;
+    border-radius: 7px;
+    background-color: white;
+    padding: 7px;
+    overflow-y: auto;
+}

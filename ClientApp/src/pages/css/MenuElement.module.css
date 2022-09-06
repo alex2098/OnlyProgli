@@ -1,0 +1,20 @@
+﻿.div_create, .div_solution {
+    background-color: white;
+    bottom: 7px;
+    position: absolute;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.div_create {
+    top: 40px;
+    right: 0;
+    width: 200px;
+}
+
+.div_solution {
+    top: 50px;
+    right: 7px;
+    width: 220px;
+    overflow-y: auto;
+}

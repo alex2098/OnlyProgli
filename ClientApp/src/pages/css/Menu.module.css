@@ -1,0 +1,45 @@
+﻿.div {
+    background-color: white;
+    width: 230px;
+    bottom: 0;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+}
+
+ul.menu {
+    padding-left: 0px;
+    text-align: left;
+    color: black;
+}
+
+.menu li {
+    width: 100%;
+    padding-left: 15px;
+    transition-property: background-color, padding;
+    transition-duration: 0.2s;
+}
+
+.menu li:hover {
+    background: rgb(170, 200, 230);
+    cursor: pointer;
+    padding-left: 20%;
+}
+
+.menu li:hover::before {
+    background: rgb(170, 200, 230);
+}
+
+.link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    color: black;
+}
+
+.text {
+    font-size:24px;
+    font-weight: 400;
+}

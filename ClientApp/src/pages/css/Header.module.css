@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    text-align: right;
+    border-bottom: 2px solid black;
+}
+
+.link:hover {
+    text-decoration: none; 
+}
+
+.img {
+    margin: 13px 7px;
+    width:24px;
+    height:24px;
+}
+
+.span {
+    display:inline-block;
+    margin: 5px 0;
+    left: 10px;
+    position: absolute;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(70, 60, 60);
+}
+

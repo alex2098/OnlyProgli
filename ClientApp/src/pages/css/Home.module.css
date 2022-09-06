@@ -1,0 +1,11 @@
+﻿.div_1 {
+    margin: 0 7px;
+}
+
+.div_2 {
+    left: 7px;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}

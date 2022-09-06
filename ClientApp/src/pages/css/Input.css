@@ -1,0 +1,21 @@
+﻿span.input_current, span.input_error {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+span.input_current {
+    color: black;
+}
+
+span.input_error {
+    color: rgb(253, 35, 35);
+}
+
+input.input_current {
+    background-color: white;
+}
+
+input.input_error {
+    background-color: rgb(255, 227, 227);
+}

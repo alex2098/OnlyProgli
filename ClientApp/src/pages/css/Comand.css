@@ -1,0 +1,89 @@
+﻿.add, .forward, .rotate_right, .rotate_left, .paint, 
+.begin_cycle_check, .begin_cycle_number, .end_cycle,
+.check, .if_right, .if_left,
+.if_forward, .if_back, .no, .and, .or, .end_check {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.add {
+    background-image: url(../resources/плюс.png);
+}
+
+.add_mini {
+    background-image: url(../resources/плюс.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.forward {
+    background-image: url(../resources/вперед.png);
+}
+
+.rotate_right {
+    background-image: url(../resources/поворот_направо.png);
+}
+
+.rotate_left {
+    background-image: url(../resources/поворот_налево.png);
+}
+
+.paint {
+    background-image: url(../resources/закрасить.png);
+}
+
+.begin_cycle_check, .begin_cycle_number {
+    background-image: url(../resources/нц.png);
+}
+
+.end_cycle {
+    background-image: url(../resources/кц.png);
+}
+
+.check {
+    background-image: url(../resources/условие.png);
+}
+
+.end_check {
+    background-image: url(../resources/кп.png);
+}
+
+.if_right, .if_left, .if_forward, .if_back {
+    background-image: url(../resources/если_свободно.png);
+}
+
+.if_left {
+    transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+
+.if_forward {
+    transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+}
+
+.if_back {
+    transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+
+.no {
+    background-image: url(../resources/не.png);
+}
+
+.and {
+    background-image: url(../resources/и.png);
+}
+
+.or {
+    background-image: url(../resources/или.png);
+}

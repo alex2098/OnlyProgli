@@ -1,0 +1,32 @@
+﻿.div_create {
+    top: 40px;
+    left: 0;
+    right: 207px;
+    bottom: 0;
+    position: absolute;
+    text-align: right;
+}
+
+.div {
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+
+.div_table {
+    overflow: auto;
+    top: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.div_table table{
+    white-space: nowrap;
+}
+
+.button {
+    width: 40px;
+}

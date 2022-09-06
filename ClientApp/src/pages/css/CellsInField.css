@@ -1,0 +1,62 @@
+﻿.field_private {
+    background-color: rgb(216, 219, 228);
+}
+
+.field_public {
+    background-color: white;
+}
+
+.field_barrier {
+    background-color: rgb(255, 120, 120);
+}
+
+.field_barrier_robot_1 {
+    background-color: rgb(203, 255, 229);
+}
+
+.field_barrier_robot_2 {
+    background-color: rgb(184, 255, 255);
+}
+
+.robot_1, .robot_2, .field_item {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.field_item {
+    background-image: url(../resources/предмет.png);
+}
+
+.robot_1 {
+    background-image: url(../resources/исполнитель_1.png);
+}
+
+.robot_2 {
+    background-image: url(../resources/исполнитель_2.png);
+}
+
+.robot_direction_0 {
+    transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+}
+
+.robot_direction_1 {
+}
+
+.robot_direction_2 {
+    transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+
+.robot_direction_3 {
+    transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}

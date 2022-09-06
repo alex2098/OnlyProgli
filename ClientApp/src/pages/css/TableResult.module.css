@@ -1,0 +1,31 @@
+﻿.td_1, .td_2 {
+    border: 0.5px solid black;
+}
+
+.td_1 {
+    padding-left: 7px;
+}
+
+.td_2 {
+    text-align: center;
+    width: 150px;
+}
+
+.tr {
+    text-align: center;
+}
+
+.div {
+    top: 50px;
+    left: 7px;
+    right: 7px;
+    position: absolute;
+}
+
+.table {
+    width: 100%;
+}
+
+.win {
+    background-color: rgb(203, 255, 208);
+}

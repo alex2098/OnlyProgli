@@ -1,0 +1,16 @@
+﻿.div {
+    width: 100%;
+    border-radius: 7px;
+    padding: 3px;
+    margin: 3.5px 0;
+    border: 1px solid black;
+}
+
+.img {
+    width: 32px;
+    height: 32px;
+}
+
+.button {
+    text-align: right;
+}

@@ -1,0 +1,9 @@
+﻿.name_page {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(70, 60, 60);
+    padding: 0 12px;
+    background-color: white;
+    border-radius: 7px;
+    margin: 7px 7px;
+}
